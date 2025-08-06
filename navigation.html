@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>navigation</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+      body {
+
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 0, 0);
+        
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #1c3527;
+      }
+      .topnav a {
+        float: left;
+        color: #4d9aff;
+        text-align: center;
+        padding: 30px 20px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:hover {
+        background-color: #dddddd;
+        color: rgb(23, 14, 27);
+      }
+      .topnav a.active {
+        background-color: #ffe066;
+        color: rgb(31, 11, 26);
+      }
+      #who {
+        background-color: rgb(4, 57, 78);
+        padding: 100px 0px 120px 0px;
+      }
+      a.right {
+        float: right;
+      }
+      .image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+      #what {
+        background-color: rgb(78, 74, 99);
+        padding: 200px 0px 200px 0px;
+      }
+      #where{
+        background-color: rgb(131, 31, 31);
+        padding: 200px 0px 150px 0px;
+      }
+      #where a{
+        color: white;
+        text-decoration: none;
+      }
+      .topnav {
+        position:sticky;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#who">WHO</a>
+      <a class="right" href="#about">About Me</a>
+      <a href="#what">WHAT</a>
+      <a href="#where">WHERE</a>
+    </div>
+    <div id="who">
+      <a class="lower"></a>
+
+      <center>
+        <h1>Who am I?</h1>
+        <img
+          src="faris2.webp"
+          class="image"
+          alt="photo"
+          style="width: 220px; height: 220px"
+        />
+        <h1>I am a <s>noob</s> web dev</h1>
+      </center>
+    </div>
+    <center>
+      <div id="what">
+        <h1>What do I like</h1>
+        <br />
+        <p>Well for starters, i like to code and i like to go fishing sometimes, idk what else to write here</p>
+      </div>
+      <div id="where">
+        <h1>Where to find me?</h1><br><br>
+        <h2><a href="https://github.com/Yungledore" target="_blank">Github</a></h2>
+      </div>
+      <p style="  padding: 200px 0px 125px 0px; color:beige;">Thank you for meeting me. goodbye!</p>
+    </center>
+    
+  </body>
+</html>
